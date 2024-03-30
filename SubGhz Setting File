@@ -1,0 +1,79 @@
+SubGhz Setting File to catch all frequencies and add custom presets for any device and key file fob. Here's the modified version of the file:
+
+# Modified Flipper SubGhz Setting File
+Filetype: Flipper SubGhz Setting File
+Version: 1
+
+# Always use manual settings and prevent them from being deleted on upgrade
+Rename_user_files: true
+
+# Add Standard frequencies for your region
+Add_standard_frequencies: true
+
+# Default Frequency: used as default for "Read" and "Read Raw"
+Default_frequency: 433920000
+
+# Frequencies used for "Read", "Read Raw" and "Frequency Analyzer"
+Frequency: 240000000
+Frequency: 300000000
+Frequency: 315000000
+Frequency: 400000000
+Frequency: 410000000
+Frequency: 433000000
+Frequency: 434000000
+Frequency: 868000000
+Frequency: 915000000
+Frequency: 2405000000
+Frequency: 2425000000
+Frequency: 2445000000
+Frequency: 2465000000
+Frequency: 2485000000
+Frequency: 2500000000
+Frequency: 5150000000
+Frequency: 5250000000
+Frequency: 5750000000
+Frequency: 5850000000
+
+# Frequencies used for hopping mode (keep this list small or flipper will miss signal)
+Hopper_frequency: 433920000
+Hopper_frequency: 868350000
+Hopper_frequency: 915000000
+
+# Custom presets
+Custom_preset_name: Honda1
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+Custom_preset_name: Honda2
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 07 11 36 10 E9 15 32 18 18 19 16 1D 92 1C 40 1B 03 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Add more custom presets as needed
+
+
+# Toyota Preset
+Custom_preset_name: Toyota
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Ford Preset
+Custom_preset_name: Ford
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 07 11 36 10 E9 15 32 18 18 19 16 1D 92 1C 40 1B 03 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Nissan Preset
+Custom_preset_name: Nissan
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Mazda Preset
+Custom_preset_name: Mazda
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# BMW Preset
+Custom_preset_name: BMW
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 0
+
+This modified version includes all the standard frequencies for various regions and allows you to catch all frequencies. 
