@@ -3,7 +3,7 @@ How to install this new settings file in Flipper Zero. Free your Flipper Zero.Fr
 ---
 
 **Title:** How to Install a New Settings File in Flipper Zero
-
+https://discord.gg/TNhGnMjt
 **Introduction:**
 "Hello My Flipper Zero Family... Today, I'm going to show you how to install a new user settings file in your Flipper Zero device. This will allow you to catch ALL frequencies yes key fobs 2 bro.; and adds custom presets to allow your Flipper Zero full freedom to grab any subGHz device and key fob. The BMW custom setting is iffy... shame on the pros that want you to keep a dolphin in a fish tank here goes your true freedom let Flipper truly hack some ****.... Also I hate coffee. Don't thank me paid me buy me a beer I mean a six pack... Hey pros I'm a free agent rookie superstar hacker...Draft me. For all you tattletales remember I got this from you...
 
@@ -35,3 +35,4 @@ How to install this new settings file in Flipper Zero. Free your Flipper Zero.Fr
 
 Please note that the steps might vary slightly depending on your operating system and the specific version of your Flipper Zero device. Always refer to the official Flipper Zero documentation for the most accurate information. Dont thank me Pay Me xoxo...https://github.com/ReplicatorsTKO/Regulators_211-FLIPPER-ZERO-modified-settings
 21rerun@gmail.com
+https://discord.gg/TNhGnMjt
