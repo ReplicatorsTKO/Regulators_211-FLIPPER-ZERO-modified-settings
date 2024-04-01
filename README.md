@@ -8,7 +8,7 @@ How to install this new settings file in Flipper Zero. Free your Flipper Zero.Fr
 "Hello My Flipper Zero Family... Today, I'm going to show you how to install a new user settings file in your Flipper Zero device. This will allow you to catch ALL frequencies yes key fobs 2 bro.; and adds custom presets to allow your Flipper Zero full freedom to grab any subGHz device and key fob. The BMW custom setting is iffy... shame on the pros that want you to keep a dolphin in a fish tank here goes your true freedom let Flipper truly hack some ****.... Also I hate coffee. Don't thank me paid me buy me a beer I mean a six pack... Hey pros I'm a free agent rookie superstar hacker...Draft me. For all you tattletales remember I got this from you...
 
 **Step 1:**
-"First, you need to have the new settings file{https://github.com/ReplicatorsTKO/Regulators_211-FLIPPER-ZERO-modified-settings} ready. For this tutorial, we're using a modified version of the SubGhz Setting File."
+"First, you need to have the new settings file[{https://github.com/ReplicatorsTKO/Regulators_211-FLIPPER-ZERO-modified-settings](https://github.com/ReplicatorsTKO/Regulators_211-FLIPPER-ZERO-modified-settings)} ready. For this tutorial, we're using a modified version of the SubGhz Setting File."
 
 **Step 2:**
 "Connect your Flipper Zero to your computer. Make sure it's recognized by your system."
@@ -33,4 +33,5 @@ How to install this new settings file in Flipper Zero. Free your Flipper Zero.Fr
 
 ---
 
-Please note that the steps might vary slightly depending on your operating system and the specific version of your Flipper Zero device. Always refer to the official Flipper Zero documentation for the most accurate information. Dont thank me Pay Me xoxo...
+Please note that the steps might vary slightly depending on your operating system and the specific version of your Flipper Zero device. Always refer to the official Flipper Zero documentation for the most accurate information. Dont thank me Pay Me xoxo...https://github.com/ReplicatorsTKO/Regulators_211-FLIPPER-ZERO-modified-settings
+21rerun@gmail.com
