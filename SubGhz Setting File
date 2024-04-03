@@ -1,6 +1,7 @@
-SubGhz Setting File to catch all frequencies and add custom presets for any device and key file fob. Here's the modified version of the file:
+Modified Flipper SubGhz Setting File SubGhz Setting File to catch all frequencies and add custom presets for any device and key file fob. Add everything below this line to your user_settings file. 
+From yours truly AP!
+--------------------------------------------------------
 
-# Modified Flipper SubGhz Setting File
 Filetype: Flipper SubGhz Setting File
 Version: 1
 
@@ -14,42 +15,32 @@ Add_standard_frequencies: true
 Default_frequency: 433920000
 
 # Frequencies used for "Read", "Read Raw" and "Frequency Analyzer"
-Frequency: 240000000
+
 Frequency: 300000000
+Frequency: 310000000
 Frequency: 315000000
-Frequency: 400000000
-Frequency: 410000000
+Frequency: 318000000
+Frequency: 390000000
 Frequency: 433000000
+Frequency: 433920000
 Frequency: 434000000
 Frequency: 868000000
-Frequency: 915000000
-Frequency: 2405000000
-Frequency: 2425000000
-Frequency: 2445000000
-Frequency: 2465000000
-Frequency: 2485000000
-Frequency: 2500000000
-Frequency: 5150000000
-Frequency: 5250000000
-Frequency: 5750000000
-Frequency: 5850000000
+
+
 
 # Frequencies used for hopping mode (keep this list small or flipper will miss signal)
 Hopper_frequency: 433920000
 Hopper_frequency: 868350000
-Hopper_frequency: 915000000
+Hopper_frequency: 315000000
 
 # Custom presets
 Custom_preset_name: Honda1
 Custom_preset_module: CC1101
 Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
 
-Custom_preset_name: Honda2
+# Custom_preset_name: Honda2
 Custom_preset_module: CC1101
 Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 07 11 36 10 E9 15 32 18 18 19 16 1D 92 1C 40 1B 03 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
-
-# Add more custom presets as needed
-
 
 # Toyota Preset
 Custom_preset_name: Toyota
@@ -75,5 +66,82 @@ Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 
 Custom_preset_name: BMW
 Custom_preset_module: CC1101
 Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 0
+
+# Dodge Preset
+Custom_preset_name: Dodge
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 07 11 36 10 E9 15 32 18 18 19 16 1D 92 1C 40 1B 03 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Chevrolet Preset
+Custom_preset_name: Chevrolet
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Mercedes Preset
+Custom_preset_name: Mercedes
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Audi Preset
+Custom_preset_name: Audi
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 07 11 36 10 E9 15 32 18 18 19 16 1D 92 1C 40 1B 03 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Porsche Preset
+Custom_preset_name: Porsche
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Honda Motorcycle Preset (315 MHz)
+Custom_preset_name: Honda_Motorcycle
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Yamaha Motorcycle Preset (315 MHz)
+Custom_preset_name: Yamaha_Motorcycle
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 0B 06 08 32 07 04 14 00 13 02 12 07 11 36 10 E9 15 32 18 18 19 16 1D 92 1C 40 1B 03 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+# Vespa Moped Preset (433.92 MHz)
+Custom_preset_name: Vespa_Moped
+Custom_preset_module: CC1101
+Custom_preset_data: 10 01 16 20 4E 00 1F 40 27 1B 00 12 44 C4 00
+
+# Custom_preset_name: FAAC_Parking
+Custom_preset_module: CC1101
+Custom_preset_data: 10 01 16 20 4E 00 1F 40 27 1B 00 12 44 C4 00
+
+# BFT Parking Garage (433.92 MHz)
+Custom_preset_name: BFT_Parking
+Custom_preset_module: CC1101
+Custom_preset_data: 10 01 16 20 4E 00 1F 40 27 1B 00 12 44 C4 00
+
+# Chamberlain/LiftMaster Garage Door Opener (315 MHz)
+Custom_preset_name: Chamberlain_Garage
+Custom_preset_module: EM4095
+Custom_preset_data: FF FF FF FF FF FF
+
+# Genie Garage Door Opener (315 MHz)
+Custom_preset_name: Genie_Garage
+Custom_preset_module: EM4095
+Custom_preset_data: 0C 07 15 67 1E 15
+
+# Craftsman Garage Door Opener (390 MHz)
+Custom_preset_name: Craftsman_Garage
+Custom_preset_module: EM4095
+Custom_preset_data: 08 10 3E 00 00 00
+
+# Mylide Gate Opener (433.92 MHz)
+Custom_preset_name: Mylide_Gate
+Custom_preset_module: CC1101
+Custom_preset_data: 10 01 16 20 4E 00 1F 40 27 1B 00 12 44 C4 00
+
+# Nice/Hörmann Gate Opener (868.35 MHz)
+Custom_preset_name: Nice_Gate
+Custom_preset_module: CC1101
+Custom_preset_data: 02 0D 1F 06 08 32 07 04 14 00 13 02 12 04 11 36 10 69 15 32 18 18 19 16 1D 91 1C 00 1B 07 20 FB 22 10 21 56 00 00 C0 00 00 00 00 00 00 00
+
+--------------------------------------------------------
+Add these presets to your existing configuration, and you should be able to use 
 
 This modified version includes all the standard frequencies for various regions and allows you to catch all frequencies. 
